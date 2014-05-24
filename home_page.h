@@ -1,0 +1,1 @@
+char* home_page();
