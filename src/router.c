@@ -1,8 +1,8 @@
 #include <string.h>
 #include <fcgi_stdio.h>
 #include "router.h"
-#include "home_page.h"
-#include "jacks_page.h"
+#include "home_page/home_page.h"
+#include "jacks_page/jacks_page.h"
 
 void route_path(char *path) {
   if (strcmp(path, "/jack") == 0) {
